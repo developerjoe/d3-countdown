@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AFB5B37155376A200902705 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFB5B36155376A200902705 /* UIKit.framework */; };
+		5AFB5B39155376A200902705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFB5B38155376A200902705 /* Foundation.framework */; };
+		5AFB5B3B155376A200902705 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFB5B3A155376A200902705 /* CoreGraphics.framework */; };
+		5AFB5B41155376A200902705 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB5B3F155376A200902705 /* InfoPlist.strings */; };
+		5AFB5B43155376A200902705 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB5B42155376A200902705 /* main.m */; };
+		5AFB5B47155376A200902705 /* D3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB5B46155376A200902705 /* D3AppDelegate.m */; };
+		5AFB5B4A155376A200902705 /* D3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB5B49155376A200902705 /* D3ViewController.m */; };
+		5AFB5B4D155376A200902705 /* D3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB5B4B155376A200902705 /* D3ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AFB5B32155376A200902705 /* d3countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d3countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFB5B36155376A200902705 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AFB5B38155376A200902705 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AFB5B3A155376A200902705 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AFB5B3E155376A200902705 /* d3countdown-Info.plist */ = {isa = PBXFileReference; path = "d3countdown-Info.plist"; sourceTree = "<group>"; };
+		5AFB5B40155376A200902705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AFB5B42155376A200902705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AFB5B44155376A200902705 /* d3countdown-Prefix.pch */ = {isa = PBXFileReference; path = "d3countdown-Prefix.pch"; sourceTree = "<group>"; };
+		5AFB5B45155376A200902705 /* D3AppDelegate.h */ = {isa = PBXFileReference; path = D3AppDelegate.h; sourceTree = "<group>"; };
+		5AFB5B46155376A200902705 /* D3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3AppDelegate.m; sourceTree = "<group>"; };
+		5AFB5B48155376A200902705 /* D3ViewController.h */ = {isa = PBXFileReference; path = D3ViewController.h; sourceTree = "<group>"; };
+		5AFB5B49155376A200902705 /* D3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3ViewController.m; sourceTree = "<group>"; };
+		5AFB5B4C155376A200902705 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/D3ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AFB5B2F155376A200902705 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFB5B37155376A200902705 /* UIKit.framework in Frameworks */,
+				5AFB5B39155376A200902705 /* Foundation.framework in Frameworks */,
+				5AFB5B3B155376A200902705 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AFB5B27155376A200902705 = {
+			isa = PBXGroup;
+			children = (
+				5AFB5B3C155376A200902705 /* d3countdown */,
+				5AFB5B35155376A200902705 /* Frameworks */,
+				5AFB5B33155376A200902705 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AFB5B33155376A200902705 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB5B32155376A200902705 /* d3countdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AFB5B35155376A200902705 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB5B36155376A200902705 /* UIKit.framework */,
+				5AFB5B38155376A200902705 /* Foundation.framework */,
+				5AFB5B3A155376A200902705 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AFB5B3C155376A200902705 /* d3countdown */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB5B45155376A200902705 /* D3AppDelegate.h */,
+				5AFB5B46155376A200902705 /* D3AppDelegate.m */,
+				5AFB5B48155376A200902705 /* D3ViewController.h */,
+				5AFB5B49155376A200902705 /* D3ViewController.m */,
+				5AFB5B4B155376A200902705 /* D3ViewController.xib */,
+				5AFB5B3D155376A200902705 /* Supporting Files */,
+			);
+			path = d3countdown;
+			sourceTree = "<group>";
+		};
+		5AFB5B3D155376A200902705 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AFB5B3E155376A200902705 /* d3countdown-Info.plist */,
+				5AFB5B3F155376A200902705 /* InfoPlist.strings */,
+				5AFB5B42155376A200902705 /* main.m */,
+				5AFB5B44155376A200902705 /* d3countdown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AFB5B31155376A200902705 /* d3countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AFB5B50155376A200902705 /* Build configuration list for PBXNativeTarget "d3countdown" */;
+			buildPhases = (
+				5AFB5B2E155376A200902705 /* Sources */,
+				5AFB5B2F155376A200902705 /* Frameworks */,
+				5AFB5B30155376A200902705 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = d3countdown;
+			productName = d3countdown;
+			productReference = 5AFB5B32155376A200902705 /* d3countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AFB5B29155376A200902705 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = D3;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5AFB5B2C155376A200902705 /* Build configuration list for PBXProject "d3countdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AFB5B27155376A200902705;
+			productRefGroup = 5AFB5B33155376A200902705 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AFB5B31155376A200902705 /* d3countdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AFB5B30155376A200902705 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFB5B41155376A200902705 /* InfoPlist.strings in Resources */,
+				5AFB5B4D155376A200902705 /* D3ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AFB5B2E155376A200902705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AFB5B43155376A200902705 /* main.m in Sources */,
+				5AFB5B47155376A200902705 /* D3AppDelegate.m in Sources */,
+				5AFB5B4A155376A200902705 /* D3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AFB5B3F155376A200902705 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFB5B40155376A200902705 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5AFB5B4B155376A200902705 /* D3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AFB5B4C155376A200902705 /* en */,
+			);
+			name = D3ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AFB5B4E155376A200902705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AFB5B4F155376A200902705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AFB5B51155376A200902705 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "d3countdown/d3countdown-Prefix.pch";
+				INFOPLIST_FILE = "d3countdown/d3countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AFB5B52155376A200902705 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "d3countdown/d3countdown-Prefix.pch";
+				INFOPLIST_FILE = "d3countdown/d3countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AFB5B2C155376A200902705 /* Build configuration list for PBXProject "d3countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFB5B4E155376A200902705 /* Debug */,
+				5AFB5B4F155376A200902705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AFB5B50155376A200902705 /* Build configuration list for PBXNativeTarget "d3countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AFB5B51155376A200902705 /* Debug */,
+				5AFB5B52155376A200902705 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AFB5B29155376A200902705 /* Project object */;
+}
