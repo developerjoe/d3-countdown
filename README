@@ -1,0 +1,5 @@
+Project for knowing when you can play Diablo 3.
+
+Built quickly and tested on iPhone 4S iOS 5. End date based on best information I could find
+and time is based on North American release. change the bundle id to something that works 
+for you and deploy. 
