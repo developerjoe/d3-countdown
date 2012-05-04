@@ -18,6 +18,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:NO];
+    
     // Override point for customization after application launch.
     self.viewController = [[D3ViewController alloc] initWithNibName:@"D3ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;

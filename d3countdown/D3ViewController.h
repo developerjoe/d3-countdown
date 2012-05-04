@@ -10,4 +10,6 @@
 
 @interface D3ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UILabel* countdownLabel;
+
 @end

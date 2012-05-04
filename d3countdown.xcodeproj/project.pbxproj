@@ -15,22 +15,28 @@
 		5AFB5B47155376A200902705 /* D3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB5B46155376A200902705 /* D3AppDelegate.m */; };
 		5AFB5B4A155376A200902705 /* D3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFB5B49155376A200902705 /* D3ViewController.m */; };
 		5AFB5B4D155376A200902705 /* D3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB5B4B155376A200902705 /* D3ViewController.xib */; };
+		5AFB5B54155376CB00902705 /* d3background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB5B53155376CB00902705 /* d3background@2x.png */; };
+		5AFB5B561553773B00902705 /* d3background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB5B551553773B00902705 /* d3background.png */; };
+		5AFB5B58155399E500902705 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFB5B57155399E500902705 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5AFB5B32155376A200902705 /* d3countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = d3countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AFB5B32155376A200902705 /* Diablo Yet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diablo Yet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AFB5B36155376A200902705 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5AFB5B38155376A200902705 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5AFB5B3A155376A200902705 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5AFB5B3E155376A200902705 /* d3countdown-Info.plist */ = {isa = PBXFileReference; path = "d3countdown-Info.plist"; sourceTree = "<group>"; };
+		5AFB5B3E155376A200902705 /* d3countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "d3countdown-Info.plist"; sourceTree = "<group>"; };
 		5AFB5B40155376A200902705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5AFB5B42155376A200902705 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5AFB5B44155376A200902705 /* d3countdown-Prefix.pch */ = {isa = PBXFileReference; path = "d3countdown-Prefix.pch"; sourceTree = "<group>"; };
-		5AFB5B45155376A200902705 /* D3AppDelegate.h */ = {isa = PBXFileReference; path = D3AppDelegate.h; sourceTree = "<group>"; };
+		5AFB5B44155376A200902705 /* d3countdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "d3countdown-Prefix.pch"; sourceTree = "<group>"; };
+		5AFB5B45155376A200902705 /* D3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D3AppDelegate.h; sourceTree = "<group>"; };
 		5AFB5B46155376A200902705 /* D3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3AppDelegate.m; sourceTree = "<group>"; };
-		5AFB5B48155376A200902705 /* D3ViewController.h */ = {isa = PBXFileReference; path = D3ViewController.h; sourceTree = "<group>"; };
+		5AFB5B48155376A200902705 /* D3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D3ViewController.h; sourceTree = "<group>"; };
 		5AFB5B49155376A200902705 /* D3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D3ViewController.m; sourceTree = "<group>"; };
 		5AFB5B4C155376A200902705 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/D3ViewController.xib; sourceTree = "<group>"; };
+		5AFB5B53155376CB00902705 /* d3background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d3background@2x.png"; sourceTree = "<group>"; };
+		5AFB5B551553773B00902705 /* d3background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d3background.png; sourceTree = "<group>"; };
+		5AFB5B57155399E500902705 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,7 @@
 		5AFB5B27155376A200902705 = {
 			isa = PBXGroup;
 			children = (
+				5AFB5B57155399E500902705 /* icon.png */,
 				5AFB5B3C155376A200902705 /* d3countdown */,
 				5AFB5B35155376A200902705 /* Frameworks */,
 				5AFB5B33155376A200902705 /* Products */,
@@ -59,7 +66,7 @@
 		5AFB5B33155376A200902705 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AFB5B32155376A200902705 /* d3countdown.app */,
+				5AFB5B32155376A200902705 /* Diablo Yet.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +84,8 @@
 		5AFB5B3C155376A200902705 /* d3countdown */ = {
 			isa = PBXGroup;
 			children = (
+				5AFB5B53155376CB00902705 /* d3background@2x.png */,
+				5AFB5B551553773B00902705 /* d3background.png */,
 				5AFB5B45155376A200902705 /* D3AppDelegate.h */,
 				5AFB5B46155376A200902705 /* D3AppDelegate.m */,
 				5AFB5B48155376A200902705 /* D3ViewController.h */,
@@ -101,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AFB5B31155376A200902705 /* d3countdown */ = {
+		5AFB5B31155376A200902705 /* Diablo Yet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AFB5B50155376A200902705 /* Build configuration list for PBXNativeTarget "d3countdown" */;
+			buildConfigurationList = 5AFB5B50155376A200902705 /* Build configuration list for PBXNativeTarget "Diablo Yet" */;
 			buildPhases = (
 				5AFB5B2E155376A200902705 /* Sources */,
 				5AFB5B2F155376A200902705 /* Frameworks */,
@@ -113,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = d3countdown;
+			name = "Diablo Yet";
 			productName = d3countdown;
-			productReference = 5AFB5B32155376A200902705 /* d3countdown.app */;
+			productReference = 5AFB5B32155376A200902705 /* Diablo Yet.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AFB5B31155376A200902705 /* d3countdown */,
+				5AFB5B31155376A200902705 /* Diablo Yet */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +160,9 @@
 			files = (
 				5AFB5B41155376A200902705 /* InfoPlist.strings in Resources */,
 				5AFB5B4D155376A200902705 /* D3ViewController.xib in Resources */,
+				5AFB5B54155376CB00902705 /* d3background@2x.png in Resources */,
+				5AFB5B561553773B00902705 /* d3background.png in Resources */,
+				5AFB5B58155399E500902705 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +252,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "d3countdown/d3countdown-Prefix.pch";
 				INFOPLIST_FILE = "d3countdown/d3countdown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +264,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "d3countdown/d3countdown-Prefix.pch";
 				INFOPLIST_FILE = "d3countdown/d3countdown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AFB5B50155376A200902705 /* Build configuration list for PBXNativeTarget "d3countdown" */ = {
+		5AFB5B50155376A200902705 /* Build configuration list for PBXNativeTarget "Diablo Yet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5AFB5B51155376A200902705 /* Debug */,
